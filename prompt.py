@@ -7,4 +7,4 @@ def report_count(token):
     token_count = content.count(token)
     
     # Print the result in the desired format
-    print(f"The term [{token}] shows up in the corpus [{token_count}] times.")
+    print(f"The term {token} shows up in the corpus {token_count} times.")
